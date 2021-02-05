@@ -28,3 +28,12 @@ Constraints:
 
 1 <= nums.length <= 100
 0 <= nums[i] <= 100
+
+
+Logic for finding permutations:
+1. find the number which is decreasing from right. let it be c
+2. fing the number which is imediate greater than c and lowest in numbers begining next from c and till end
+3. replace number found in step 2 with c
+4. sort the numbers next from c till end.
+
+this will give you next permutation. For finding all possible permutations, perform the above process till all the numbers are reverse sorted.

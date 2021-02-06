@@ -45,3 +45,7 @@ Constraints:
 board.length == 9
 board[i].length == 9
 board[i][j] is a digit or '.'.
+
+
+The trick :
+box number = (row/3) * 3 + (col/3)

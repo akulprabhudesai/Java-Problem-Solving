@@ -1,0 +1,8 @@
+Backtracking
+backtracking is a general algorithm for finding all (or some) solutions to some computational problems.
+The idea is that it incrementally builds candidates to the solutions, 
+and abandons a candidate ("backtrack") 
+as soon as it determines that this candidate cannot lead to a final solution.
+
+use recursion to solve this and to understand recursion use tree on paper 
+it will be easy to iterate over each case

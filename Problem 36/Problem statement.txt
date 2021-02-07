@@ -12,7 +12,6 @@ Only the filled cells need to be validated according to the mentioned rules.
 
 Example 1:
 
-
 Input: board = 
 [["5","3",".",".","7",".",".",".","."]
 ,["6",".",".","1","9","5",".",".","."]
@@ -46,3 +45,7 @@ Constraints:
 board.length == 9
 board[i].length == 9
 board[i][j] is a digit or '.'.
+
+
+The trick :
+box number = (row/3) * 3 + (col/3)

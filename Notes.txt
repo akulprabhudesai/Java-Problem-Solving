@@ -6,3 +6,19 @@ as soon as it determines that this candidate cannot lead to a final solution.
 
 use recursion to solve this and to understand recursion use tree on paper 
 it will be easy to iterate over each case
+
+1. how to rorate n x n matrix
+	a. make each row as column for that swap row 0 element with colum 0
+	b. swap elements of col start with col end. start++ and end-- for each row
+
+2. sodoku question how to get which box each cell matrix belongs to
+	(row)/3 * 3 + (col/3)
+
+3. how to find out missing ele in array
+	a. go to array position which is pointed by each array ele and multiply it by -1
+	b. array index whose ele is not multiple of -1 is missing
+
+4. how to find out which ele is duplicated
+	a. go to array position which is pointed by each array ele and multiply it by -1
+	b. if you go to array position pointed by array ele and get value negative, that array ele 
+	   is duplicated

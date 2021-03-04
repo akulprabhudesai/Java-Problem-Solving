@@ -22,3 +22,6 @@ it will be easy to iterate over each case
 	a. go to array position which is pointed by each array ele and multiply it by -1
 	b. if you go to array position pointed by array ele and get value negative, that array ele 
 	   is duplicated
+
+5. in order to covert char into int with its index between 0 to 26, make char - 'a'.
+this will give index of letter in acc to alphabetical order

@@ -25,3 +25,18 @@ it will be easy to iterate over each case
 
 5. in order to covert char into int with its index between 0 to 26, make char - 'a'.
 this will give index of letter in acc to alphabetical order
+
+6. bit wise operations
+	1. right shift by 1 bit = in decimal current value get divided by 2
+			  n bit = in decimal current value gets divided by 2^n 
+	
+	Right shift by n operation means, shifting all 1 in binary number to its right by n positions.
+	In binary form, each i position's weight is denoted as (2^i) hence when we shift to right by n,
+	weight gets reduced by (2^n). Hence we divide number by (2^n) in decimal 
+	
+	2. left shift by 1 bit = in decimal current value get multiplied by 2
+			 n bit = in decimal current value gets multiplied by 2^n
+
+	Left shift by n operation means, shifting all 1 in binary number to its left by n positions
+	In binary form, each i position's weight is denoted as (2^i) hence when we shift to left by n, 
+	weight gets increased by (2^n). Hence we multiple number by (2^n) in decimal

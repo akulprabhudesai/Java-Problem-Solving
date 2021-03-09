@@ -40,3 +40,14 @@ this will give index of letter in acc to alphabetical order
 	Left shift by n operation means, shifting all 1 in binary number to its left by n positions
 	In binary form, each i position's weight is denoted as (2^i) hence when we shift to left by n, 
 	weight gets increased by (2^n). Hence we multiple number by (2^n) in decimal
+
+CALCULATION OF NUMBER OF 1's in given number
+
+1.In the binary representation, the least significant 1-bit in n always corresponds to a 0-bit in n - 1. 
+Therefore, logical and of n and n - 1 always flips the least significant 1-bit in n to 0, 
+and keeps all other bits the same. so we can count number of 1's by keep multiplying n with n-1 till 
+n is not equal to zero. n can become -ve or +ve due to bit flipping
+
+2. We can multiply given number with 1 as 1 has its last bit 1. if result non zero means given numebr's 
+last bit is also 1. then we can check each bit of given number by multiplying it with 1 but we have to 
+left shift last 1 bit of multiplier 1 by 1 position

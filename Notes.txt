@@ -51,3 +51,7 @@ n is not equal to zero. n can become -ve or +ve due to bit flipping
 2. We can multiply given number with 1 as 1 has its last bit 1. if result non zero means given numebr's 
 last bit is also 1. then we can check each bit of given number by multiplying it with 1 but we have to 
 left shift last 1 bit of multiplier 1 by 1 position
+
+3. if we have a character representing any digit from 0 to 9 and we want its numeric value withour direct
+conversion of string/character into integer then we can use do following:
+int ans = '1' - '0';  subctracting '0' from character will give numeric value of character

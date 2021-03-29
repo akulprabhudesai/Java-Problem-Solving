@@ -26,6 +26,9 @@ it will be easy to iterate over each case
 5. in order to covert char into int with its index between 0 to 26, make char lower case then - 'a'.
 this will give index of letter in acc to alphabetical order
 
+for converting int index between 0 to 26, do following ( for caps, avoid last to lower case)
+String.valueOf( (char) (integer + 1 + +64)).toLowerCase());
+
 6. bit wise operations
 	1. right shift by 1 bit = in decimal current value get divided by 2
 			  n bit = in decimal current value gets divided by 2^n 
